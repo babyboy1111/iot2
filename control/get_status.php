@@ -1,13 +1,9 @@
 
 <?php
-$servername = "localhost";
-
-// REPLACE with your Database name
-$dbname = "demo2";
-// REPLACE with Database user
-$username = "root";
-// REPLACE with Database user password
-$password = "";
+$servername='localhost';
+$username='dighuyni_smartgarden'; 
+$password='12345678';
+$dbname = "dighuyni_smartgarden"; 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
